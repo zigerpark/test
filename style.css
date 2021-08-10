@@ -1,0 +1,272 @@
+/*
+Theme Name: kadai
+Author: 藤田聖
+Description: 仕出し弁当”とり川”のコーポレートサイト用テーマ
+Version: 1.0
+*/
+
+/* Base
+   ========================================================================== */
+
+body {
+  font-family: Meiryo;
+  background-color: #fff;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
+  margin:0;
+}
+
+a {
+  color: #009d8e;
+  text-decoration: none;
+  outline: none;
+}
+
+/* Header
+   ========================================================================== */
+header {
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 10px;
+    /*max-width: 1300px;*/
+    position: relative;
+    background-color: #555;
+}
+
+#logo img{
+    display: inline-block;
+    width: 80px;
+    height: 66px;
+}
+
+.navi ul{
+    display: flex;
+    /*width: 80px;*/
+    /*width: calc(100% - 66px);*/
+    justify-content: space-between; 
+    margin: 0;
+    padding: 0;
+
+}
+
+.navi ul li {
+  /*width: 100%;*/
+  height: 30px;
+  list-style: none;
+  float: left;
+  margin-right: 40px;
+}
+
+.navi a {
+  color: #eee;
+  font-size: large;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+/* Cover
+   ========================================================================== */
+
+#cover {
+    position: relative;
+}
+
+#cover img {
+    width: 100%;
+    filter: brightness(50%);
+}
+
+#main-text {
+    position: absolute;
+    font-size: xxx-large;
+    text-align: center;
+    text-shadow: gray 1px 0 10px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+}
+#sub-text {
+    position: absolute;
+    font-size: larger;
+    text-align: center;
+    text-shadow: gray 1px 0 10px;
+    color: white;
+    top: 63%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+}
+
+/* Footer
+   ========================================================================== */
+
+footer {
+    text-align: center;
+}
+
+#footer-logo img {
+    text-align: center;
+    display: inline-block;
+    width: 80px;
+    height: 66px;
+}
+
+#contact {
+  padding: 30px 0;
+  text-align: center;
+  background-image: url("images/bg-footer.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.btn {
+  width: 200px;
+  margin: 10px;
+  padding: 15px;
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #ffbe00;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+#copyright {
+  padding: 15px 0;
+  text-align: center;
+  color: #ccc;
+  background-color: #333;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+}
+
+/* Content
+   ========================================================================== */
+
+#content {
+  text-align: center;
+  width: 95%;
+  margin: 30px auto;
+}
+
+aside {
+  width: 100%;
+  margin: 0 auto;
+}
+
+aside section {
+  margin-bottom: 20px;
+}
+
+article {
+  width: 100%;
+}
+
+article section {
+  margin-bottom: 40px;
+}
+
+article h2 {
+  /*color: #ffbe00;*/
+  display: inline;
+}
+
+article h3 {
+  color: #888;
+}
+
+/**
+ * Top-News
+ */
+
+.news-list {
+  display: table;
+  text-align: left;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.news-list li {
+  /*margin-bottom: 15px;*/
+  padding-bottom: 15px;
+  /*border-bottom: 1px solid #ddd;*/
+}
+
+.news-list li .date {
+  width: 85px;
+  display: inline-block;
+  margin-right: 10px;
+  color: #888;
+  vertical-align: top;
+}
+
+.news-list li .label-info {
+  width: 65px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: -3px;
+  background: #009d8e;
+  font-size: 12px;
+  text-align: center;
+  padding: 3px 8px;
+  color: #fff;
+  vertical-align: top;
+}
+
+.news-list li a {
+  /*width: 100%;*/
+  /*margin-top: 8px;*/
+  display: inline-block;
+  vertical-align: top;
+}
+
+.section-title {
+    margin-bottom: 30px;
+    /*color: red;*/
+}
+
+#more-list {
+    position: absolute;
+    padding: 2px;
+    margin: 0 0 0 90px;
+    width: 90px;
+    border: 2px solid;
+    border-color: #32373c;
+    color: #32373c;
+    border-radius: 10px;
+}
+
+/**
+ * Top-Button
+ */
+
+.btn-default {
+  background-color: #fff;
+  color: #009d8e;
+  border: 1px solid #009d8e;
+}
+
