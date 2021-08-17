@@ -73,5 +73,15 @@ Template Name: トップページ
               endif;
             ?>        
         </article>
+        <article>
+          <section>
+            <div id="ranc">
+              <div class="section-title">
+                      <h2>人気のお弁当</h2><a id="more-list">一覧へ ＞</a>
+              </div>
+            </div>
+          </section>
+        </article>
+
     </div>
 <?php get_footer(); //footer.phpを取得　PHPで終了するので閉じタグは不要です
