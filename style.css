@@ -246,6 +246,7 @@ article h3 {
 
 .section-title {
     margin-bottom: 30px;
+    padding-top: 15px;
     /*color: red;*/
 }
 
@@ -258,6 +259,7 @@ article h3 {
     border-color: #32373c;
     color: #32373c;
     border-radius: 10px;
+    background-color: #fff;
 }
 
 /**
@@ -270,3 +272,11 @@ article h3 {
   border: 1px solid #009d8e;
 }
 
+/*
+Toppage 
+ */
+
+#ranc {
+  background-color: rgb(252, 209, 209);
+  height: 400px;
+} 
